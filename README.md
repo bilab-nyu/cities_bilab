@@ -51,7 +51,7 @@ for w, pred in zip(new_sentence, p[0]):
 * Repair Failures & Connection Issues: repair failure, loose, fastener failure, failure, coating failure/peeling/flaking, separation
 * Cracking & Damage: crack, erosion/pitting, abrasion, chipping, scaling, spall, delamination, cavity
 
-![image](image)
+![img](img/cluster.png)
 
 * The main working code section for clustering is shown below:
 ```
