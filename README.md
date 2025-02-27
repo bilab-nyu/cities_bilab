@@ -53,6 +53,13 @@ for w, pred in zip(new_sentence, p[0]):
 
 ![img](img/cluster.png)
 
+# Dependencies and Recommended Versions
+# Ensure scikit-learn version 1.2.2 is used for consistent results
+# Install using: pip install scikit-learn==1.2.2
+
+import sklearn
+assert sklearn.__version__ == "1.2.2", "Please install scikit-learn version 1.2.2 for reproducible results."
+
 * The main working code section for clustering is shown below:
 ```
 # clustering code
